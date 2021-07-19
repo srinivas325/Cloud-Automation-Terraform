@@ -3,7 +3,7 @@
 #Describing Provider
 provider "aws" {
   region     = "ap-south-1"
-  profile    = "harsh"
+  profile    = "naga"
 }
 
 #------------------------ Variables -----------------------------
@@ -11,7 +11,7 @@ provider "aws" {
 #Creating Variable for AMI Id
 variable "ami_id" {
   type    = string
-  default = "ami-0447a12f28fddb066"
+  default = "ami-0ad704c126371a549"
 }
 
 #Creating Variable for AMI Type
