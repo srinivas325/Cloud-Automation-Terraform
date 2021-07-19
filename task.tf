@@ -189,7 +189,7 @@ resource "null_resource" "mount_ebs_volume" {
         "sudo mkfs.ext4 /dev/xvdh",
         "sudo mount /dev/xvdh /var/www/html",
         "sudo rm -rf /var/www/html",
-        "sudo git clone https://github.com/hrshmistry/Code-Cloud.git /var/www/html/"
+        "sudo git clone https://github.com/srinivas325/Cloud-Automation-Terraform.git /var/www/html/"
       ]
     }
 }
